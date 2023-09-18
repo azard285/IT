@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Лабораторная работа 2.1</title>
+        <script language="JavaScript">
+            function swap()
+            {
+                var body = new Image();
+                body.src = rock.src;
+                rock.src = dead.src;
+                dead.src = body.src;
+            }
+        </script>
+    </head>
+    <body>
+        <img name="dead" src="dead.gif">
+        <img name="rock" src="rock.gif">
+        <br> <button onclick="swap()"> СУПЕР ОБМЕН!!!!! </button>
+    </body>
+</html>
